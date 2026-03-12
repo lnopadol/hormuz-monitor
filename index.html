@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strait of Hormuz Monitor</title>
+<style>
+:root {
+  --bg: #0a0a0f;
+  --surface: #12121a;
+  --border: #1e1e2e;
+  --text: #e0e0e8;
+  --muted: #888898;
+  --accent: #f59e0b;
+  --red: #ef4444;
+  --green: #22c55e;
+  --blue: #60a5fa;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: 'SF Mono', 'Cascadia Code', 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.6; padding: 20px; max-width: 1200px; margin: 0 auto; }
+h1 { font-size: 18px; font-weight: 600; margin-bottom: 4px; color: var(--accent); }
+.subtitle { color: var(--muted); font-size: 11px; margin-bottom: 20px; }
+.status-bar { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; padding: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; }
+.status-item { display: flex; flex-direction: column; gap: 2px; }
+.status-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.status-value { font-size: 14px; font-weight: 600; }
+.status-value.danger { color: var(--red); }
+.status-value.warning { color: var(--accent); }
+.status-value.ok { color: var(--green); }
+table { width: 100%; border-collapse: collapse; background: var(--surface); border-radius: 8px; overflow: hidden; }
+thead { background: #1a1a28; }
+th { text-align: left; padding: 10px 12px; font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted); font-weight: 500; border-bottom: 1px solid var(--border); white-space: nowrap; }
+td { padding: 8px 12px; border-bottom: 1px solid var(--border); font-size: 12px; vertical-align: top; }
+tr:hover { background: rgba(255,255,255,0.02); }
+.tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
+.tag-closed { background: rgba(239,68,68,0.15); color: var(--red); }
+.tag-disrupted { background: rgba(245,158,11,0.15); color: var(--accent); }
+.tag-open { background: rgba(34,197,94,0.15); color: var(--green); }
+.headline { color: var(--muted); font-size: 11px; max-width: 400px; }
+.footer { margin-top: 20px; color: var(--muted); font-size: 10px; text-align: center; }
+.footer a { color: var(--muted); }
+@media (max-width: 768px) {
+  body { padding: 12px; font-size: 12px; }
+  .status-bar { gap: 12px; }
+  td, th { padding: 6px 8px; }
+  .headline { max-width: 200px; }
+}
+</style>
+</head>
+<body>
+<h1>Strait of Hormuz Monitor</h1>
+<p class="subtitle">Last updated: <span id="last-updated">2026-03-12 07:01 ICT</span> | 19 recorded observations</p>
+
+<div class="status-bar">
+  <div class="status-item">
+    <span class="status-label">Hormuz Status</span>
+    <span class="status-value danger" id="cur-hormuz">Open</span>
+  </div>
+  <div class="status-item">
+    <span class="status-label">Brent ($/bbl)</span>
+    <span class="status-value warning" id="cur-brent">91.98</span>
+  </div>
+  <div class="status-item">
+    <span class="status-label">WTI ($/bbl)</span>
+    <span class="status-value warning" id="cur-wti">92.84</span>
+  </div>
+  <div class="status-item">
+    <span class="status-label">Gold ($/oz)</span>
+    <span class="status-value" id="cur-gold">5190.8</span>
+  </div>
+  <div class="status-item">
+    <span class="status-label">BTC ($)</span>
+    <span class="status-value" id="cur-btc">71,038</span>
+  </div>
+</div>
+
+<table>
+<thead>
+<tr>
+  <th>Time (ICT)</th>
+  <th>Hormuz</th>
+  <th>Brent</th>
+  <th>WTI</th>
+  <th>Gold</th>
+  <th>BTC</th>
+  <th>Notes</th>
+</tr>
+</thead>
+<tbody id="log-body">
+<tr>
+  <td>Mar 12 07:01</td>
+  <td><span class="tag tag-open">Open</span></td>
+  <td>$91.98</td>
+  <td>$92.84</td>
+  <td>$5,191</td>
+  <td>$71,038</td>
+  <td class="headline">Fresh ship strikes reported; Hormuz technically open but operating like a wartime exclusion zone with near-zero commerci</td>
+</tr>
+<tr>
+  <td>Mar 11 19:02</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$91.72</td>
+  <td>-</td>
+  <td>$5,190</td>
+  <td>-</td>
+  <td class="headline">Hormuz remains effectively near-standstill; LNG shock persists (Qatar force majeure) while UNSC votes and US strikes tar</td>
+</tr>
+<tr>
+  <td>Mar 11 13:00</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$86.91</td>
+  <td>$83.22</td>
+  <td>$5,204</td>
+  <td>$70,064</td>
+  <td class="headline">- Assessment: De-facto closed for most compliant operators; traffic remains severely disrupted with limited high-risk tr</td>
+</tr>
+<tr>
+  <td>Mar 10 19:04</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$92.47</td>
+  <td>$87.88</td>
+  <td>-</td>
+  <td>$69,948</td>
+  <td class="headline">- Assessment: Effectively disrupted / near-standstill with selective passage; no credible formal international closure n</td>
+</tr>
+<tr>
+  <td>Mar 10 13:02</td>
+  <td><span class="tag tag-disrupted">Severely Disrupted</span></td>
+  <td>$102.91</td>
+  <td>$87.88</td>
+  <td>$5,162</td>
+  <td>$68,976</td>
+  <td class="headline">Hormuz still severely disrupted but selectively passable (Saudi crude tanker transited); Brent still >$100; QatarEnergy </td>
+</tr>
+<tr>
+  <td>Mar 10 07:01</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$103.74</td>
+  <td>-</td>
+  <td>$5,127</td>
+  <td>$68,976</td>
+  <td class="headline">- Hormuz remains **effectively near-closed**: commercial avoidance continues; new reporting highlights an **IRGC-claimed</td>
+</tr>
+<tr>
+  <td>Mar 09 19:04</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$103.89</td>
+  <td>$102.11</td>
+  <td>-</td>
+  <td>$67,862</td>
+  <td class="headline">Local time: 2026-03-09 19:04 (+07)</td>
+</tr>
+<tr>
+  <td>Mar 09 13:04</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$107.07</td>
+  <td>$106.17</td>
+  <td>$5,045</td>
+  <td>$67,742</td>
+  <td class="headline">Hormuz remains legally open but effectively near-closed (very low transits) while oil stays >$100; Reuters reports Iran </td>
+</tr>
+<tr>
+  <td>Mar 09 07:11</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$106.92</td>
+  <td>$108.85</td>
+  <td>$5,144</td>
+  <td>$66,361</td>
+  <td class="headline">- Assessment: **Legally open but effectively closed / near-standstill**.</td>
+</tr>
+<tr>
+  <td>Mar 08 13:03</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$84.54</td>
+  <td>$80.01</td>
+  <td>$5,172</td>
+  <td>$67,220</td>
+  <td class="headline">Hormuz remains effectively closed (tanker traffic standstill); Qatar flags risk of broader Gulf export halt; Brent ~$84.</td>
+</tr>
+<tr>
+  <td>Mar 08 07:02</td>
+  <td><span class="tag tag-open">Unknown</span></td>
+  <td>$84.54</td>
+  <td>$80.01</td>
+  <td>$5,172</td>
+  <td>$67,362</td>
+  <td class="headline">Hormuz disruption persists (tanker traffic near-zero); Brent/WTI eased on latest close; Kuwait begins output cuts; US Ho</td>
+</tr>
+<tr>
+  <td>Mar 07 19:04</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$92.69</td>
+  <td>$90.90</td>
+  <td>-</td>
+  <td>$68,078</td>
+  <td class="headline">Hormuz effectively shut (tanker traffic near-zero); Brent holds ~$93 after >8% jump; US Senate rejects war-powers limit;</td>
+</tr>
+<tr>
+  <td>Mar 07 13:02</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$92.87</td>
+  <td>$90.90</td>
+  <td>$5,159</td>
+  <td>$68,005</td>
+  <td class="headline">- **Run time (local):** 2026-03-07 13:02 (Asia/Bangkok)</td>
+</tr>
+<tr>
+  <td>Mar 07 07:02</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>$71,680</td>
+  <td class="headline">Hormuz traffic still effectively closed/near-standstill; Qatar LNG force majeure persists; oil holding near $90 with ele</td>
+</tr>
+<tr>
+  <td>Mar 06 19:02</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$87.30</td>
+  <td>$87.30</td>
+  <td>-</td>
+  <td>$91,151</td>
+  <td class="headline">Hormuz remains de-facto shut (traffic near-halt) as war enters week 2; LNG disruption persists; oil jumps back up.</td>
+</tr>
+<tr>
+  <td>Mar 06 13:03</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$84.96</td>
+  <td>$80.50</td>
+  <td>$5,111</td>
+  <td>$91,151</td>
+  <td class="headline">Hormuz still near-standstill (de facto disruption); oil slightly lower vs last check; Gulf states signal collective defe</td>
+</tr>
+<tr>
+  <td>Mar 06 07:05</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$85.41</td>
+  <td>$78.87</td>
+  <td>$5,061</td>
+  <td>$91,151</td>
+  <td class="headline">Hormuz remains effectively blocked; oil up ~4–6% on the day; Qatar LNG outage persists.</td>
+</tr>
+<tr>
+  <td>Mar 05 19:01</td>
+  <td><span class="tag tag-closed">Effectively Closed</span></td>
+  <td>$82.42</td>
+  <td>$76.12</td>
+  <td>$5,162</td>
+  <td>$91,151</td>
+  <td class="headline">Shipping attacks continue as Hormuz effectively shut.</td>
+</tr>
+<tr>
+  <td>Mar 05 13:01</td>
+  <td><span class="tag tag-open">Unknown</span></td>
+  <td>$84.33</td>
+  <td>$77.52</td>
+  <td>$5,151</td>
+  <td>$91,151</td>
+  <td class="headline">Oil jumps +3–4% as Hormuz traffic stays near-stalled.</td>
+</tr>
+</tbody>
+</table>
+
+<div class="footer">
+  <p>Data collected 3x daily (7am/1pm/7pm ICT) | <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a></p>
+</div>
+</body>
+</html>
