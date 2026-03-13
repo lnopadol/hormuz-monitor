@@ -218,5 +218,15 @@
     "gold": 5175.26,
     "btc": 91151.49,
     "headline": "Hormuz still severely disrupted; Brent back above $100 while Iran UN envoy says Tehran won't close the strait."
+  },
+  {
+    "timestamp": "2026-03-13T14:00:00+07:00",
+    "display_time": "2026-03-13 14:00 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 100.34,
+    "wti": 95.3,
+    "gold": 5127.3,
+    "btc": 71627.35,
+    "headline": "Hormuz still severely disrupted; Iran supreme leader says strait should remain shut while U.S. weighs coalition escorts."
   }
 ]
