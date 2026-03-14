@@ -268,5 +268,25 @@
     "gold": 5017.7,
     "btc": 70974.85,
     "headline": "Hormuz transit still heavily suppressed; Brent ~$103 (WTI ~$99) while Iran signals conditional passage via navy coordination and US vows to keep strait open."
+  },
+  {
+    "timestamp": "2026-03-14T15:04:00+07:00",
+    "display_time": "2026-03-14 15:04 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 103.14,
+    "wti": 98.71,
+    "gold": 5017.7,
+    "btc": 70723.29295607845,
+    "headline": "Hormuz still severely disrupted (repeated ship attacks); Brent ~03, gold ~,018 while LNG shock keeps Asian spot >0/mmbtu."
+  },
+  {
+    "timestamp": "2026-03-13T15:03:00+07:00",
+    "display_time": "2026-03-13 15:03 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 99.1,
+    "wti": 93.57,
+    "gold": 5113.6,
+    "btc": 72235.89,
+    "headline": "Oil eases but stays elevated; Reuters says Iran tells UN it will not close Hormuz, though shipping remains near-standstill."
   }
 ]
