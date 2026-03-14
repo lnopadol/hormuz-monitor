@@ -7,7 +7,7 @@
     "wti": 77.522,
     "gold": 5150.8,
     "btc": 91151.49,
-    "headline": "Oil jumps +3\u20134% as Hormuz traffic stays near-stalled."
+    "headline": "Oil jumps +3–4% as Hormuz traffic stays near-stalled."
   },
   {
     "timestamp": "2026-03-05T19:01:00+07:00",
@@ -27,7 +27,7 @@
     "wti": 78.87,
     "gold": 5060.6,
     "btc": 91151.0,
-    "headline": "Hormuz remains effectively blocked; oil up ~4\u20136% on the day; Qatar LNG outage persists."
+    "headline": "Hormuz remains effectively blocked; oil up ~4–6% on the day; Qatar LNG outage persists."
   },
   {
     "timestamp": "2026-03-06T13:03:00+07:00",
@@ -257,6 +257,16 @@
     "wti": 98.71,
     "gold": 5017.7,
     "btc": 70836.34,
-    "headline": "Brent jumps back above ~$103 as Iran vows to keep Hormuz closed; Reuters says transit requires coordinating with Iran\u2019s navy, but traffic remains heavily suppressed."
+    "headline": "Brent jumps back above ~$103 as Iran vows to keep Hormuz closed; Reuters says transit requires coordinating with Iran’s navy, but traffic remains heavily suppressed."
+  },
+  {
+    "timestamp": "2026-03-14T14:03:00+07:00",
+    "display_time": "2026-03-14 14:03 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 103.14,
+    "wti": 98.71,
+    "gold": 5017.7,
+    "btc": 70974.85,
+    "headline": "Hormuz transit still heavily suppressed; Brent ~$103 (WTI ~$99) while Iran signals conditional passage via navy coordination and US vows to keep strait open."
   }
 ]
