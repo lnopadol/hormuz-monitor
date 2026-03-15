@@ -52,12 +52,12 @@
   {
     "timestamp": "2026-03-07T07:02:00+07:00",
     "display_time": "2026-03-07 07:02 ICT",
-    "hormuz_status": "Effectively Closed",
+    "hormuz_status": "Unknown",
     "brent": null,
     "wti": null,
     "gold": null,
     "btc": 71680.3,
-    "headline": "Hormuz traffic still effectively closed/near-standstill; Qatar LNG force majeure persists; oil holding near $90 with elevated war risk. ([Reuters maps and charts of the Iran crisis](https://www.reuter"
+    "headline": "Hormuz disruption persists."
   },
   {
     "timestamp": "2026-03-07T13:02:00+07:00",
@@ -67,7 +67,7 @@
     "wti": 90.9,
     "gold": 5158.89,
     "btc": 68005.0,
-    "headline": "- **Run time (local):** 2026-03-07 13:02 (Asia/Bangkok)"
+    "headline": "Hormuz effectively shut; Brent ~$93; gold ~$5,159; BTC ~$68.0k."
   },
   {
     "timestamp": "2026-03-07T19:04:00+07:00",
@@ -77,7 +77,7 @@
     "wti": 90.9,
     "gold": null,
     "btc": 68078.0,
-    "headline": "Hormuz effectively shut (tanker traffic near-zero); Brent holds ~$93 after >8% jump; US Senate rejects war-powers limit; LNG shock persists"
+    "headline": "Hormuz effectively shut (tanker traffic near-zero); Brent holds ~$93 after >8% jump; LNG shock persists"
   },
   {
     "timestamp": "2026-03-08T07:02:00+07:00",
@@ -87,7 +87,7 @@
     "wti": 80.01,
     "gold": 5171.5,
     "btc": 67362.0,
-    "headline": "Hormuz disruption persists (tanker traffic near-zero); Brent/WTI eased on latest close; Kuwait begins output cuts; US House rejects war-powers check."
+    "headline": "Hormuz disruption persists (tanker traffic near-zero); Brent/WTI eased on latest close."
   },
   {
     "timestamp": "2026-03-08T13:03:00+07:00",
@@ -97,7 +97,7 @@
     "wti": 80.01,
     "gold": 5171.5,
     "btc": 67220.0,
-    "headline": "Hormuz remains effectively closed (tanker traffic standstill); Qatar flags risk of broader Gulf export halt; Brent ~$84.5 (last close), gold ~$5,171, BTC ~$67.2k."
+    "headline": "Hormuz remains effectively closed (tanker traffic standstill); Brent ~$84.5; gold ~$5,171; BTC ~$67.2k."
   },
   {
     "timestamp": "2026-03-09T07:11:00+07:00",
@@ -107,7 +107,7 @@
     "wti": 108.85,
     "gold": 5143.77,
     "btc": 66361.0,
-    "headline": "- Assessment: **Legally open but effectively closed / near-standstill**."
+    "headline": "Assessment: legally open but effectively closed / near-standstill."
   },
   {
     "timestamp": "2026-03-09T13:04:00+07:00",
@@ -117,7 +117,7 @@
     "wti": 106.17,
     "gold": 5044.57,
     "btc": 67742.0,
-    "headline": "Hormuz remains legally open but effectively near-closed (very low transits) while oil stays >$100; Reuters reports Iran hardliners elevate Mojtaba Khamenei as successor."
+    "headline": "Hormuz remains legally open but effectively near-closed (very low transits) while oil stays >$100."
   },
   {
     "timestamp": "2026-03-09T19:04:00+07:00",
@@ -127,7 +127,7 @@
     "wti": 102.11,
     "gold": null,
     "btc": 67862.0,
-    "headline": "Local time: 2026-03-09 19:04 (+07)"
+    "headline": "Hormuz effectively closed; oil elevated."
   },
   {
     "timestamp": "2026-03-10T07:01:00+07:00",
@@ -137,7 +137,7 @@
     "wti": null,
     "gold": 5126.7,
     "btc": 68975.62,
-    "headline": "- Hormuz remains **effectively near-closed**: commercial avoidance continues; new reporting highlights an **IRGC-claimed drone strike on a tanker** and that only a small number of tankers may transit "
+    "headline": "Hormuz remains effectively near-closed: commercial avoidance continues; new ship strike reporting."
   },
   {
     "timestamp": "2026-03-10T13:02:00+07:00",
@@ -147,7 +147,7 @@
     "wti": 87.876,
     "gold": 5162.5,
     "btc": 68975.62,
-    "headline": "Hormuz still severely disrupted but selectively passable (Saudi crude tanker transited); Brent still >$100; QatarEnergy LNG force majeure persists with ~1 month restart timeline."
+    "headline": "Hormuz still severely disrupted but selectively passable; Brent still >$100."
   },
   {
     "timestamp": "2026-03-10T19:04:00+07:00",
@@ -157,7 +157,7 @@
     "wti": 87.876,
     "gold": null,
     "btc": 69947.82,
-    "headline": "- Assessment: Effectively disrupted / near-standstill with selective passage; no credible formal international closure notice seen in reviewed sources, but multiple commercial operators treat it as no"
+    "headline": "Assessment: Effectively disrupted / near-standstill with selective passage."
   },
   {
     "timestamp": "2026-03-11T13:00:00+07:00",
@@ -167,7 +167,7 @@
     "wti": 83.22,
     "gold": 5204.4,
     "btc": 70063.86,
-    "headline": "- Assessment: De-facto closed for most compliant operators; traffic remains severely disrupted with limited high-risk transits (shadow fleet heavy). ([Lloyd's List](https://www.lloydslist.com/hot-topi"
+    "headline": "Assessment: De-facto closed for most compliant operators; limited high-risk transits."
   },
   {
     "timestamp": "2026-03-11T19:02:00+07:00",
@@ -177,7 +177,7 @@
     "wti": null,
     "gold": 5190.45,
     "btc": null,
-    "headline": "Hormuz remains effectively near-standstill; LNG shock persists (Qatar force majeure) while UNSC votes and US strikes target mine-laying capability. ([BBC News Pidgin](https://www.bbc.com/pidgin/articl"
+    "headline": "Hormuz remains effectively near-standstill; LNG shock persists (Qatar force majeure)."
   },
   {
     "timestamp": "2026-03-12T07:01:00+07:00",
@@ -230,46 +230,6 @@
     "headline": "Hormuz still severely disrupted; Iran supreme leader says strait should remain shut while U.S. weighs coalition escorts."
   },
   {
-    "timestamp": "2026-03-13T15:03:00+07:00",
-    "display_time": "2026-03-13 15:03 ICT",
-    "hormuz_status": "Severely Disrupted",
-    "brent": 99.1,
-    "wti": 93.57,
-    "gold": 5113.6,
-    "btc": 72235.89,
-    "headline": "Oil eases but stays elevated; Reuters says Iran tells UN it will not close Hormuz, though shipping remains near-standstill."
-  },
-  {
-    "timestamp": "2026-03-13T15:03:00+07:00",
-    "display_time": "2026-03-13 15:03 ICT",
-    "hormuz_status": "Severely Disrupted",
-    "brent": 99.1,
-    "wti": 93.57,
-    "gold": 5113.6,
-    "btc": 72235.89,
-    "headline": "Oil eases but stays elevated; Reuters says Iran tells UN it will not close Hormuz, though shipping remains near-standstill."
-  },
-  {
-    "timestamp": "2026-03-14T08:04:00+07:00",
-    "display_time": "2026-03-14 08:04 ICT",
-    "hormuz_status": "Severely Disrupted",
-    "brent": 103.69,
-    "wti": 98.71,
-    "gold": 5017.7,
-    "btc": 70836.34,
-    "headline": "Brent jumps back above ~$103 as Iran vows to keep Hormuz closed; Reuters says transit requires coordinating with Iran’s navy, but traffic remains heavily suppressed."
-  },
-  {
-    "timestamp": "2026-03-14T14:03:00+07:00",
-    "display_time": "2026-03-14 14:03 ICT",
-    "hormuz_status": "Severely Disrupted",
-    "brent": 103.14,
-    "wti": 98.71,
-    "gold": 5017.7,
-    "btc": 70974.85,
-    "headline": "Hormuz transit still heavily suppressed; Brent ~$103 (WTI ~$99) while Iran signals conditional passage via navy coordination and US vows to keep strait open."
-  },
-  {
     "timestamp": "2026-03-14T15:04:00+07:00",
     "display_time": "2026-03-14 15:04 ICT",
     "hormuz_status": "Severely Disrupted",
@@ -277,26 +237,16 @@
     "wti": 98.71,
     "gold": 5017.7,
     "btc": 70723.29295607845,
-    "headline": "Hormuz still severely disrupted (repeated ship attacks); Brent ~03, gold ~,018 while LNG shock keeps Asian spot >0/mmbtu."
+    "headline": "Hormuz still severely disrupted (repeated ship attacks); Brent ~$103, gold ~$5,018 while LNG shock persists."
   },
   {
-    "timestamp": "2026-03-13T15:03:00+07:00",
-    "display_time": "2026-03-13 15:03 ICT",
+    "timestamp": "2026-03-15T15:03:00+07:00",
+    "display_time": "2026-03-15 15:03 ICT",
     "hormuz_status": "Severely Disrupted",
-    "brent": 99.1,
-    "wti": 93.57,
-    "gold": 5113.6,
-    "btc": 72235.89,
-    "headline": "Oil eases but stays elevated; Reuters says Iran tells UN it will not close Hormuz, though shipping remains near-standstill."
-  },
-  {
-    "timestamp": "2026-03-15T19:03+07:00",
-    "display_time": "2026-03-15 19:03 ICT",
-    "hormuz_status": "Effectively Closed",
     "brent": 103.14,
     "wti": 98.71,
-    "gold": 5020.6,
-    "btc": 70844.67438471,
-    "headline": "Hormuz remains effectively shut/near-standstill; ceasefire talks stalled while US deploys more forces and regional strikes hit ports/embassies."
+    "gold": 5017.7,
+    "btc": 71500.44570971771,
+    "headline": "Hormuz transit still heavily suppressed; ceasefire efforts rejected; U.S. urges coalition warships for escorts."
   }
 ]
