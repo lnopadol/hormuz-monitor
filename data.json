@@ -288,5 +288,15 @@
     "gold": 5113.6,
     "btc": 72235.89,
     "headline": "Oil eases but stays elevated; Reuters says Iran tells UN it will not close Hormuz, though shipping remains near-standstill."
+  },
+  {
+    "timestamp": "2026-03-15T19:03+07:00",
+    "display_time": "2026-03-15 19:03 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 103.14,
+    "wti": 98.71,
+    "gold": 5020.6,
+    "btc": 70844.67438471,
+    "headline": "Hormuz remains effectively shut/near-standstill; ceasefire talks stalled while US deploys more forces and regional strikes hit ports/embassies."
   }
 ]
