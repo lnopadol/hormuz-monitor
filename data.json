@@ -7,7 +7,7 @@
     "wti": 77.522,
     "gold": 5150.8,
     "btc": 91151.49,
-    "headline": "Oil jumps +3\u20134% as Hormuz traffic stays near-stalled."
+    "headline": "Oil jumps +3–4% as Hormuz traffic stays near-stalled."
   },
   {
     "timestamp": "2026-03-05T19:01:00+07:00",
@@ -27,7 +27,7 @@
     "wti": 78.87,
     "gold": 5060.6,
     "btc": 91151.0,
-    "headline": "Hormuz remains effectively blocked; oil up ~4\u20136% on the day; Qatar LNG outage persists."
+    "headline": "Hormuz remains effectively blocked; oil up ~4–6% on the day; Qatar LNG outage persists."
   },
   {
     "timestamp": "2026-03-06T13:03:00+07:00",
@@ -277,7 +277,7 @@
     "wti": null,
     "gold": null,
     "btc": null,
-    "headline": "Reuters: Strait described as nearly inaccessible; Iran-Oman protocol discussed to license/permit vessel transits; Iran parliament weighs banning \u201chostile\u201d vessels and charging tolls."
+    "headline": "Reuters: Strait described as nearly inaccessible; Iran-Oman protocol discussed to license/permit vessel transits; Iran parliament weighs banning “hostile” vessels and charging tolls."
   },
   {
     "timestamp": "2026-04-03T13:00:00+07:00",
@@ -288,5 +288,15 @@
     "gold": null,
     "btc": null,
     "headline": "CNBC: UN Security Council shipping-protection draft (\"all necessary means\") reportedly stalled; Iran continues curtailing tanker movements through Hormuz."
+  },
+  {
+    "timestamp": "2026-04-05T00:08:26+07:00",
+    "display_time": "2026-04-05 00:08 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 109.03,
+    "wti": 111.54,
+    "gold": 4676.43,
+    "btc": 67316.77,
+    "headline": "JMIC Update 025 (29 Mar): threat level remains CRITICAL; observed Strait of Hormuz traffic remains far below normal (~138/day), with 11 vessels observed in the last 24 hours (AIS-derived); no vessel attacks reported in past 72 hours."
   }
 ]
