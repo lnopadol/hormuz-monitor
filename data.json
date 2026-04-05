@@ -298,5 +298,25 @@
     "gold": 4676.43,
     "btc": 67316.77,
     "headline": "JMIC Update 025 (29 Mar): threat level remains CRITICAL; observed Strait of Hormuz traffic remains far below normal (~138/day), with 11 vessels observed in the last 24 hours (AIS-derived); no vessel attacks reported in past 72 hours."
+  },
+  {
+    "timestamp": "2026-04-05T08:02:00+07:00",
+    "display_time": "2026-04-05 08:02 ICT",
+    "hormuz_status": "Thailand Impact Update",
+    "brent": null,
+    "wti": null,
+    "gold": null,
+    "btc": null,
+    "headline": "Thailand: Fuel retailers raised pump prices Apr 3 (diesel +3.50 baht/litre; petrol/gasohol +0.70); exports +9.9% y/y in Feb but with widening trade deficit as imports +31.8%; Krungsri estimates Middle East escalation could cut Thailand GDP by 0.2–0.9pp via oil and logistics shocks."
+  },
+  {
+    "timestamp": "2026-04-05T08:13:00+07:00",
+    "display_time": "2026-04-05 08:13 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 54.12,
+    "wti": 111.54,
+    "gold": 4676.43,
+    "btc": 67174.0,
+    "headline": "JMIC Update 026 (31 Mar): Overall Maritime Risk Level remains CRITICAL; observed Strait of Hormuz traffic last 24h: 5 vessels vs historical ~138/day (AIS-derived); two incidents on 30 Mar (AL SALMI hit by unknown projectile with fire extinguished; EXPRESS ROME reported 2 missiles splashing 50–100m away)."
   }
 ]
