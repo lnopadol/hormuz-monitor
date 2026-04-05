@@ -448,5 +448,15 @@
     "gold": 4677.28,
     "btc": 66650.35,
     "headline": "UKMTO Warning 030-26 (31 Mar/1 Apr): tanker struck by two projectiles 17NM north of Ras Laffan, Qatar; one caused fire (extinguished) and another remained unexploded in engine room; crew safe; Hormuz disruption persists."
+  },
+  {
+    "timestamp": "2026-04-06T00:10:00+07:00",
+    "display_time": "2026-04-06 00:10 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 54.12,
+    "wti": 111.54,
+    "gold": 41.27,
+    "btc": 67266.36,
+    "headline": "JMIC Update 025 (29 Mar): threat level remains CRITICAL; SoH traffic 11 vessels in last 24h; 21 confirmed attacks/incidents since 1 Mar; disruptions persist."
   }
 ]
