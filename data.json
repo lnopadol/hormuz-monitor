@@ -450,13 +450,23 @@
     "headline": "UKMTO Warning 030-26 (31 Mar/1 Apr): tanker struck by two projectiles 17NM north of Ras Laffan, Qatar; one caused fire (extinguished) and another remained unexploded in engine room; crew safe; Hormuz disruption persists."
   },
   {
-    "timestamp": "2026-04-06T00:10:00+07:00",
-    "display_time": "2026-04-06 00:10 ICT",
+    "timestamp": "2026-04-06T08:07:00+07:00",
+    "display_time": "2026-04-06 08:07 ICT",
     "hormuz_status": "Severely Disrupted",
     "brent": 54.12,
     "wti": 111.54,
     "gold": 41.27,
     "btc": 67266.36,
-    "headline": "JMIC Update 025 (29 Mar): threat level remains CRITICAL; SoH traffic 11 vessels in last 24h; 21 confirmed attacks/incidents since 1 Mar; disruptions persist."
+    "headline": "Thailand: Diesel prices raised again effective Apr 5 05:00 (standard diesel +2.80 baht/litre; some premium diesel +4.80 to +6.50) while petrol/gasohol unchanged, per OR/PTT and Bangchak retail price lists."
+  },
+  {
+    "timestamp": "2026-04-06T08:09:00+07:00",
+    "display_time": "2026-04-06 08:09 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 104.15,
+    "wti": 101.52,
+    "gold": 4690.52,
+    "btc": 66882.36,
+    "headline": "UNSC-focused brief: continued Hormuz disruptions; de facto controlled corridor reported; UN task force announced (27 Mar)."
   }
 ]
